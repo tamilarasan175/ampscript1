@@ -1,0 +1,9 @@
+%%[
+SET @fname = [First Name]
+SET @annidate =[Anniversary Date]
+SET @mobile = [Mobile Number]
+SET @years = [Tenure]
+SET @properFname = Propercase (@fname)
+SET @discount = CONCAT("25OFF", @properFname, @annidate )
+]%%
+Hi %%@properFname%%! 🎉 Congratulations on your %% @years%% years with us! We are so thankful for your loyalty. Enjoy a 25% special discount with code %%@discount%% on your next purchase. Shop now and celebrate with savings! 
